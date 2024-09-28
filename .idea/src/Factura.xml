@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE Factura [
+        <!ELEMENT Factura (cliente, productos, totalFactura)>
+        <!ELEMENT cliente (nombre, direccion)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT direccion (calle, ciudad, pais)>
+        <!ELEMENT calle (#PCDATA)>
+        <!ELEMENT ciudad (#PCDATA)>
+        <!ELEMENT pais (#PCDATA)>
+        <!ELEMENT productos (producto+)>
+        <!ELEMENT producto (descripcion, cantidad, precioUnitario, total)>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ELEMENT cantidad (#PCDATA)>
+        <!ELEMENT precioUnitario (#PCDATA)>
+        <!ELEMENT total (#PCDATA)>
+        <!ELEMENT totalFactura (#PCDATA)>
+        ]>
+<Factura>
+    <cliente>
+        <nombre>Compañia Sea</nombre>
+        <direccion>
+            <calle>Meltwood 456</calle>
+            <ciudad>Metropolis</ciudad>
+            <pais>USA</pais>
+        </direccion>
+    </cliente>
+    <productos>
+        <producto>
+            <descripcion>Impresora multifuncional</descripcion>
+            <cantidad>2</cantidad>
+            <precioUnitario>250</precioUnitario>
+            <total>500</total>
+        </producto>
+        <producto>
+            <descripcion>Paquete de papel A4</descripcion>
+            <cantidad>5</cantidad>
+            <precioUnitario>15</precioUnitario>
+            <total>75</total>
+        </producto>
+    </productos>
+    <totalFactura>575</totalFactura>
+</Factura>

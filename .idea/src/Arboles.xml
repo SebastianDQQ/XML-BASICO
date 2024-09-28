@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Arboles [
+        <!ELEMENT Arboles (Arbol+)>
+        <!ELEMENT Arbol (Nombre_cientifico, Nombre_comun, Vegetacion, Altura, Forma_y_estructura, Color_en_primavera, Color_en_otoño, Resistencia_a_las_heladas)>
+        <!ELEMENT Nombre_cientifico (#PCDATA)>
+        <!ELEMENT Nombre_comun (#PCDATA)>
+        <!ELEMENT Vegetacion (#PCDATA)>
+        <!ELEMENT Altura (#PCDATA)>
+        <!ELEMENT Forma_y_estructura (Copa, Tronco, Ramaje)>
+        <!ELEMENT Copa (#PCDATA)>
+        <!ELEMENT Tronco (#PCDATA)>
+        <!ELEMENT Ramaje (#PCDATA)>
+        <!ELEMENT Color_en_primavera (#PCDATA)>
+        <!ELEMENT Color_en_otoño (#PCDATA)>
+        <!ELEMENT Resistencia_a_las_heladas (#PCDATA)>
+        ]>
+<Arboles>
+    <Arbol>
+        <Nombre_cientifico>Acer monspessulanum</Nombre_cientifico>
+        <Nombre_comun>Arce de Montpellier, Arce menor</Nombre_comun>
+        <Vegetacion>Caducifolio</Vegetacion>
+        <Altura>De 6 a 10 metros</Altura>
+        <Forma_y_estructura>
+            <Copa>Copa esferica</Copa>
+            <Tronco>Tronco principal recto con bifurcaciones</Tronco>
+            <Ramaje>Ramaje colgante</Ramaje>
+        </Forma_y_estructura>
+        <Color_en_primavera>Haz verde brillante, enves verde blanquecino</Color_en_primavera>
+        <Resistencia_a_las_heladas>Heladas fuertes (hasta -15ºC)</Resistencia_a_las_heladas>
+    </Arbol>
+
+    <Arbol>
+        <Nombre_cientifico>Olea europaea</Nombre_cientifico>
+        <Nombre_comun>Olivo</Nombre_comun>
+        <Vegetacion>Perenne</Vegetacion>
+        <Altura>De 8 a 15 metros</Altura>
+        <Forma_y_estructura>
+            <Copa>Copa irregular</Copa>
+            <Tronco>Tronco principal irregular con bifurcaciones</Tronco>
+            <Ramaje>Ramaje tortuoso</Ramaje>
+        </Forma_y_estructura>
+        <Color_en_primavera>Haz verde oscuro, enves verde plateado</Color_en_primavera>
+        <Resistencia_a_las_heladas>Heladas medias (hasta -10ºC)</Resistencia_a_las_heladas>
+    </Arbol>
+
+    <Arbol>
+        <Nombre_cientifico>Platanus orientalis</Nombre_cientifico>
+        <Nombre_comun>Platanos</Nombre_comun>
+        <Vegetacion>Caducifolio</Vegetacion>
+        <Altura>De 20 a 25 metros</Altura>
+        <Forma_y_estructura>
+            <Copa>Copa ovoidal</Copa>
+            <Tronco>Tronco principal recto</Tronco>
+            <Ramaje>Ramaje expandido</Ramaje>
+        </Forma_y_estructura>
+        <Color_en_primavera>Haz verde medio, enves verde claro</Color_en_primavera>
+        <Color_en_otoño>Ocre</Color_en_otoño>
+        <Resistencia_a_las_heladas>Heladas fuertes (hasta -20ºC)</Resistencia_a_las_heladas>
+    </Arbol>
+
+    <Arbol>
+        <Nombre_cientifico>Quercus ilex</Nombre_cientifico>
+        <Nombre_comun>Encina</Nombre_comun>
+        <Vegetacion>Perenne</Vegetacion>
+        <Altura>En torno a 25 metros</Altura>
+        <Forma_y_estructura>
+            <Copa>Copa esferica o eliptica irregular</Copa>
+            <Tronco>Tronco principal recto</Tronco>
+            <Ramaje>Ramaje tortuoso</Ramaje>
+        </Forma_y_estructura>
+        <Color_en_primavera>Plateado en hojas jovenes. En hojas antiguas, haz verde oscuro, enves plateado</Color_en_primavera>
+        <Resistencia_a_las_heladas>Heladas fuertes (hasta -15ºC)</Resistencia_a_las_heladas>
+    </Arbol>
+</Arboles>
